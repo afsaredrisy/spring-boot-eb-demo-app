@@ -49,8 +49,8 @@ global:
 ```bash
 apidemo-app $ eb create
 ```
-You need to provide name of enviornment, DNS CNAME, load balancer type, Spot Fleet requests etc. 
-
+You need to provide name of enviornment, DNS CNAME, load balancer type, Spot Fleet requests etc. <br/>
+Note: You also need to configure AWS user credential if you are creating first time using eb cli. You need to create a user from AWS [IAM](https://aws.amazon.com/iam/) with [AWSElasticBeanstalkFullAccess](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/AWSHowTo.iam.managed-policies.html) permssion. 
 check the application status 
 ```bash
 apidemo-app $ eb status
